@@ -1,38 +1,45 @@
- body{
-    /* background-color: black; */
-    height: 100vh;
-    /* background-image: url("images/bodyimg.jpg");
-    background-size: cover; */
- }
-
- header{
-    background-color: black;
-    height: 80px;
-    width: 100wh;
- }
- #maindiv{
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
- }
-
- #signin{
-    background-color: red;
-    color: white;
-    border-radius: 5px;
- }
- 
-#outerdiv{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+*{
+   padding: 0;
+   margin: 0;
 }
 
- #startbtn{
-        background-color: red;
-        color: white;
- }
+header{
+   height: 80vh;
+   width:100%;
+   background-image: url("images/bodyimg.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   position: relative;
+}
 
+.box{
+   height: 80vh;
+   width:100%;
+   position: absolute;
+   background-color: black;
+   opacity:0.5;
+}
+nav{
+   height: 80px;
+   width: 80%;
+   margin: auto;
+   display: flex;
+   justify-content: space-between;
+   top: 20px;
+   background-color: aquamarine;
+   position: relative;
+}
+
+.container{
+   display: flex;
+   max-width: 40wh;
+   height: 100%;
+   margin: auto;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   position: relative;
+   gap: 10px;
+   
+}
